@@ -2,6 +2,7 @@
 import { Routes, Route, Link } from "react-router-dom";
 import Calender from "./Components/Calender";
 import CompletedTask from "./Components/CompletedTask";
+import Footer from "./Components/Footer";
 import Home from "./Components/Home";
 import Navbar from "./Components/Navbar";
 import ToDo from "./Components/ToDo";
@@ -15,6 +16,7 @@ function App() {
         <Route path="/completedtask" element={<CompletedTask></CompletedTask>}></Route>
         <Route path="calender" element={<Calender></Calender>}></Route>
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }
